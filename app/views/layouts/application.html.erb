@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Portfolio</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'default', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+
+<body>
+	<div class="header">
+	  <h1>CoderAPS Grove</h1>
+	  <div class="nav">
+		<div class="home"><a href="/pages">Home</a></div>
+		<div class="blog"><a href="#">Blog</a></div>
+		<div class="contract"><a href="a">Contact</a></div>
+	  </div>
+	</div>
+
+<%= yield %>
+
+	<div class="footer">
+		<div class="icon"><a href="#">
+		  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFFUlEQVR4nOWba4xdUxTHfzMYjxg6Oo1p6jFpU0IkiPCJNEQQj6RB4xUhlIpHJCJthcQ7raRT7SD6QWnRED6IhkTSqKQJCSZFGVR0zAePYUaLKjPcO9eHdW56nbP2OXufffZ95P6Tldycsx7/vXLufqy9N4THbOAq4BHgFWAI2AWMAbsjGYueDUU6D0c2fXXgFwRnAU8Cw0DFU74AVgNn1rUFOTADWA58jX+jTfIVsAw4sk5tssIsYAXwO+EaHpffgMeB3jq0z4gu4CFgH/VreFz+jDh0BW2pgpOQDsuW6DDwLHAncAFwAjAH6InkmOjZhZHOOuBLB/8fAScGbXENrgP2ZhAqA1uBW5BRIC9mA7cC70U+02L+gYwcwdAJrMkg8RcwCBwXIP7xwFNRjDQOAxHXQtEFvJoSdBrYABxddGAFfcCLKVwqwCYK7Be6gHdSgu0Czi0qmAPOB75L4fU2BSThQGBzSpC1wKG+QTzQDbyk8KrKm8ABPgEGDY6ngXt9HBeM5QgnjeuqvE6vNTj8B7jej28Q3AD8i875SldnJyOTjLijErCwGL5BcDX6cLkXmbtYoRP4QHFSAZYWyzcI7kPnvg3osHFwm8HBhuK5BoNpmLw5y7AH+EUx/AbpcTUcgnQ0P0e2q2nsyACyWvyWZDt+Ao5IM3xUMSqTvhZfqdgMeNEvBmejjwwPmgxmIMvMuMG6jEDfKzZjftwLw3qS3H7F8DXfoyj/TXZZalSx+8GbejGYA0yS5He3prxTURy0CPKYYveEJ/Ei8QxJfsNxpTMUpTIw1yLAQUh1ZjSSlTSgQJGC+eh9wam1SgOKwta60gyLbWR8pTsUhRstnfcYJK9eCCwm2b7t1Zd9JD+RMnCUpfOS4rxCchVmo9cJXAq8gCyzJyPZCbwOLEL+cq6YSXKKPI0UdLlCIfWJg/OiEnAOdnXAHcBpDvyq+FzxtRBkYhB/sdbBcREJuCPlvSbjSBHVBU8rfh4AvdS12MGxbwJWGJ5nyftYLm4iLFF8bALpDOIvFjg49k2Aj1ziwPM8xf5j0Gdy/Q6Oi07APmTD1EZ3vQPPeYr9CMjcOP7CdgRIa5hLAkrIxsnp7C9p9yJ/j7T9gE8dePYq9hMAU8oLl5mcbwLKpG9o3GSwqyBDpC0OVuynoPEJWGMR4y2DbcmBp5aASWj8X2C+RYxTDLYuCZil2I9D4ztB27q9Zu+SgLmK/QjIUBB/scDBcaskQBsGPwR4WXmxxMFxqyTgdsV+IzTHVDhvHJcEGKfCzbIYyhPHJQHGxZBpqWi71d0KCdCW/CWkEAzIjCru3HZB1AoJ0BZCQ7UKPiWxVkhAZknMVBSdl5NYMyXAqigK8JmiZLPaavYEbFTstmuK2sbIFHBsDmLNkoB+5DxD3E7dGDkMfWP0tRzEmiUBbyg2PyIbuiruN5C8yJFYMyTgYkO8ZWlB8myPj7P/2HutxBtmq2eCSwJyb4+DnP/RMrcZtyJko9CBuX5wjY2Dtj8iA3LUVSuUVJDDzM2Ku9A5T5A9miXQ1sfkqmjrg5Ig/5nnDY4ryFHUmT4BPNEHbFF4VeU5Cui42/qwdBVtfVy+ila5MLGKABcmarEI2JNBohFXZnYDl3vEckI/8G4GoVrRLk31Ih1UR/Tb59LUFsJ8dZm4jPSOKLSMRBwaim5kFWmaOYaQCWTKe3gd2meNbmSpGfrq7FLMK9OmQVtenjZBuz4/yv8PZu+JntX9+vx/oJ2TD4RVD5wAAAAASUVORK5CYII="/>
+		 </a>
+		</div>
+	  
+	  <div class="icon"><a href="#">
+		<img src="data:image/png;base64,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"/>
+	   </a>
+	   </div>
+	  
+	  <p></p>
+	  
+	  <div class="credits">Icons made by <a href="http://www.flaticon.com/authors/alessio-atzeni" title="Alessio Atzeni">Alessio Atzeni</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+	  </div>
+	  
+		<div class="credits">Icons made by <a href="http://www.flaticon.com/authors/graphicsbay" title="GraphicsBay">GraphicsBay</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+		</div>
+	</div>
+</body>
+</html>

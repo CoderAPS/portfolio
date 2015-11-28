@@ -1,0 +1,51 @@
+<div class="main">
+  
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://unslider.com/unslider.min.js"></script>
+  
+	<div class="banner-container">
+		
+		<div><a href="#" class="unslider-arrow prev">Previous Slide</a></div>
+		
+		<div class="banner">
+			<ul>
+				<li><h3 class="title">Threadly</h3><img src="https://photos-3.dropbox.com/t/2/AAB19yAVGQoCqwTrTTOgyRqZ7j-Y2fgmKvouJjTqg_JUvA/12/474857106/png/32x32/1/_/1/2/Threadly_mod.png/EJTXruwDGJQBIAcoBw/-z1UCF0EjqYWYdKP3bbfSo89VKYIWdhfxRx20xhOSa8?size=1024x768&size_mode=2"/></li>
+				<li><h3 class="title">BassMusic</h3><img src="https://photos-1.dropbox.com/t/2/AAADRgX1VHE_bCBZyd9SmzfoLJh79k4Ol6OpZSajE2briQ/12/474857106/png/32x32/1/_/1/2/Bass-Music_mod.png/EJTXruwDGJQBIAcoBw/iCUsi9lm1guyksKMm5CdeCLRR7K4JnzImikzPYLxghg?size=1024x768&size_mode=2"/></li>
+				<li><h3 class="title">Movies</h3><img src="https://photos-6.dropbox.com/t/2/AACWm5bUe79cRbKbFwQfvCSeDpQG7gkWfYXoc19FJoNkDQ/12/474857106/png/32x32/1/_/1/2/Movies_mod.png/EJTXruwDGJQBIAcoBw/iqa9KLifwgEa4Rq0JG_jgFRin0rynyTl_w6iPU-aFNU?size=1024x768&size_mode=2"/></li>
+			</ul>
+		</div> 
+		
+		<div><a href="#" class="unslider-arrow next">Next Slide</a></div>
+		
+	</div>
+	
+	<script src="//code.jquery.com/jquery-latest.min.js"></script>
+	<script src="//unslider.com/unslider.min.js"></script>
+	
+	<%= javascript_include_tag 'slider', 'data-turbolinks-track' => true %>
+	
+	<div class="container">
+	
+		<div class="box">
+			<h4 class="title">Threadly</h4>
+			<img src="https://photos-3.dropbox.com/t/2/AAB19yAVGQoCqwTrTTOgyRqZ7j-Y2fgmKvouJjTqg_JUvA/12/474857106/png/32x32/1/_/1/2/Threadly_mod.png/EJTXruwDGJQBIAcoBw/-z1UCF0EjqYWYdKP3bbfSo89VKYIWdhfxRx20xhOSa8?size=1024x768&size_mode=2"/>
+			<p>Threadly is a Rails app for commenting service. When a user types a comment into the box and clicks the Post button, the comment is saved into a database.</p>
+			<p>Check out <a href="#">Threadly</a> in action.</p>
+		</div>
+		
+		<div class="box">
+			<h4 class="title">BassMusic</h4>
+			<img src="https://photos-1.dropbox.com/t/2/AAADRgX1VHE_bCBZyd9SmzfoLJh79k4Ol6OpZSajE2briQ/12/474857106/png/32x32/1/_/1/2/Bass-Music_mod.png/EJTXruwDGJQBIAcoBw/iCUsi9lm1guyksKMm5CdeCLRR7K4JnzImikzPYLxghg?size=1024x768&size_mode=2"/>
+			<p>Albums are displayed on the main page. Clicking on an album takes users to a page where they can see an album's track listing. Each album is connected to its tracks using a has_many / belongs_to association.</p>
+			<p>Check out <a href="#">BassMusic</a> in action.</p>
+		</div>
+		
+		<div class="box">
+			<h4 class="title">Movies</h4>
+			<img src="https://photos-6.dropbox.com/t/2/AACWm5bUe79cRbKbFwQfvCSeDpQG7gkWfYXoc19FJoNkDQ/12/474857106/png/32x32/1/_/1/2/Movies_mod.png/EJTXruwDGJQBIAcoBw/iqa9KLifwgEa4Rq0JG_jgFRin0rynyTl_w6iPU-aFNU?size=1024x768&size_mode=2"/>
+			<p>Movies are displayed on the main page.  Clicking on a movie link takes users to a page where they see who the major casts are.  Each cast has a link to a page where they see a list of movies the actor/actress has been in.  Movies are connected to actors using many-to-many relationship.</p>
+			<p>Check out <a href="#">Movies</a> in action.</p>
+		</div>
+		
+	</div>
+</div>
