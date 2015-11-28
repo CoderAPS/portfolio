@@ -35,7 +35,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1.1)
+    coffee-script-source (1.10.0)
     erubis (2.7.0)
     execjs (2.6.0)
     hike (1.2.3)
@@ -49,10 +49,10 @@ GEM
     json (1.8.3)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
-    mime-types (2.6.2)
-    minitest (5.8.2)
+    mime-types (2.99)
+    minitest (5.8.3)
     multi_json (1.11.2)
-    pg (0.18.1-x86-mingw32)
+    pg (0.18.4-x86-mingw32)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
