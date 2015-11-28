@@ -4,9 +4,11 @@ source 'http://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', group: :development #added development group
-gem 'pg', group: :production # added postgres and made it production only
-gem 'rails_12factor'
+gem 'sqlite3', group: :development
+gem 'pg', '0.18.1', group: :production
+
+gem 'rails_12factor', group: :production
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'

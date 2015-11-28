@@ -52,7 +52,7 @@ GEM
     mime-types (2.99)
     minitest (5.8.3)
     multi_json (1.11.2)
-    pg (0.18.4-x86-mingw32)
+    pg (0.18.1-x86-mingw32)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -118,7 +118,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   jbuilder (~> 2.0)
   jquery-rails
-  pg
+  pg (= 0.18.1)
   rails (= 4.1.8)
   rails_12factor
   sass-rails (~> 4.0.3)
